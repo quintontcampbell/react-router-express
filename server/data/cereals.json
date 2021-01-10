@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Cocoa Puffs",
+    "description": "Sweet, chocolaty goodness.",
+    "sugarContent": 5,
+    "deliciousness": 5
+  },
+  {
+    "id": 2,
+    "name": "Fruity Pebbles",
+    "description": "Every single color of the rainbow in cereal form",
+    "sugarContent": 5,
+    "deliciousness": 2
+  },
+  {
+    "id": 3,
+    "name": "Honey Comb",
+    "description": "Heaven in a box, but super expensive",
+    "sugarContent": 4,
+    "deliciousness": 3
+  },
+  {
+    "id": 4,
+    "name": "Raisin Bran",
+    "description": "If it has bran in the name, I don't want it",
+    "sugarContent": 1,
+    "deliciousness": 2
+  }
+]

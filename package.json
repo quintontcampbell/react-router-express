@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "build:client": "yarn workspace run-from-server-client build",
+    "dev": "yarn workspace react-router-express-server dev",
+    "dev:debug": "yarn workspace react-router-express-server dev:debug",
+    "dev:server:debug": "PORT=4000 yarn workspace react-router-express-server dev:debug",
+    "dev:server": "PORT=4000 yarn workspace react-router-express-server dev",
+    "dev:client": "yarn workspace react-router-express-client dev",
+    "heroku-postbuild": "yarn workspace react-router-express-client build",
+    "start": "yarn workspace react-router-express-server start"
+  },
+  "engines": {
+    "node": "^14.8"
+  }
+}
